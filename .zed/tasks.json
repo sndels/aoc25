@@ -1,18 +1,7 @@
 [
   {
-    "label": "Build (debug)",
-    "command": "zig build -Dday=0",
-    "use_new_terminal": false,
-    "allow_concurrent_runs": false,
-    "reveal": "no_focus",
-    "hide": "never",
-    "shell": "system",
-    "show_summary": true,
-    "show_command": true
-  },
-  {
-    "label": "Run (debug)",
-    "command": "zig-out/bin/solution 1",
+    "label": "Build and run (debug)",
+    "command": "zig build -Dday=1 run -- 2",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "no_focus",
