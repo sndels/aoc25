@@ -1,7 +1,7 @@
 [
   {
     "label": "Build and run (debug)",
-    "command": "zig build -Dday=2 run -- 2",
+    "command": "zig build -Dday=3 run -- 2",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "no_focus",
